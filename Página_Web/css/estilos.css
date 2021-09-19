@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+.main img{
+  max-width: 80%;
+
+}
+.Logo{
+  width: 100px;
+  height: 40px;
+}
+.CONTENEDOR{
+  width: 100%;
+  margin: auto;
+}
+
+/*----------estilos del header----------*/
+.HEADER{
+  height: 40px;
+  background:rgba(42, 41, 40, 0.9);
+}
+.HEADER  .CONTENEDOR{
+  display: flex;
+}
+.ancla{
+  text-align: left;
+}
+
+nav > a{
+  text-decoration: none;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align:center;
+  font-size: 100%;
+}
+nav > a:hover{
+  color: rgb(245,8,154);
+}
+.menu-1{
+display;black;
+padding: 15px;
+background: rgb(51, 51, 51, 0, 9);
+color: #fff;
+height: 50px;
+
+}
+.menu-1:hover{
+  background:#fff;
+  color:#000;
+}
+/*-----------estilos del banner-------------*/
+.banner img{
+  width: 100%;
+}
+.banner{
+  position: relative;
+}
+.banner .contenedor{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  width: 100%;
+  color: rgb(10, 142, 78);
+}
+.Titulo{
+  font-size: 400%;
+  color:rgb(168, 75, 16);
+  font-family:sans-serif;
+}
+.banner-Titulo{
+  font-size:200%;
+  color: rgb(17, 94, 17);
+}
+.banner-Texto{
+  font-size:200%;
+  color: rgb(190, 251, 40);
+  font-family:sans-serif;
+}
+/*------------Estilos del Info-------------*/
+.Info{
+  background: #333;
+  color: #fff;
+  text-align: center;
+  margin-top: -50px;
+}
+.Info-img{
+  border-radius: 50%;
+  border: 7px solid #444;
+  position:relative;
+  width: 70%;
+  height:300%
+}
+.Info-img1{
+  border-radius: 40%;
+  border: 7px solid #444;
+  position:relative;
+  width: 50%;
+  height:300%;
+}
+.Info-img2{
+  border-radius: 50%;
+  border: 7px solid #444;
+  position:relative;
+  width: 400px;
+  height:300px;
+  padding-left: 1rem;
+}
+.Info-Texto{
+  text-align: justify;
+  padding: 15px;
+}
+.nombre{
+  color: rgb(148, 123, 16)
+}
+.Info-Titulo{
+color:
+
+}
+.footer{
+  text-align: center;
+}
+/*----------Estilos de menu-----------*/
+.platoscriollos{
+  background: rgb(127, 185, 109);
+  color:#fff;
+  text-align: center;
+}
+.platos-img{
+  width: 30%;
+}
+/*--------------Estilos de fotos---------------*/
+.fotos{
+  background: rgb(127, 185, 109);
+  color:#fff;
+  text-align: center;
+}
+.fotos-img{
+border-radius: 30%;
+}
+
+/*------------Estilos de contactos--------------*/
+.Contactos{
+  background: rgb(215, 176, 221);
+  color:#fff;
+  text-align: center;
+}
+.contacto-img{
+  border-radius: 10%;
+}
+.contactoDD-texto{
+  color: rgb(20, 135, 111);
+}
+.contactoD-fin{
+  color: rgb(224, 158, 28);
+  font-size: 140%;
+}
+/*------------Estilos de Dirección --------------*/
+.Dirección{
+  background: rgb(215, 176, 221);
+  color:#fff;
+  text-align: center;
+}
+/*----------Estilos de footer------------------*/
+.footer{
+  background: rgb(114, 208, 221);
+}
